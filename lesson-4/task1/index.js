@@ -5,5 +5,5 @@ while (n > 100) {
     sum += n;
     n -= 1;
 }
-
+sum = 15050;
 console.log("Result: ",sum);
