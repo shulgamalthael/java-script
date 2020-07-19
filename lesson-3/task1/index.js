@@ -38,7 +38,7 @@ undefined + '5';
 
 console.log("+17: ",+17);
 console.log("+'77': ",+'77');
-console.log("10 + '5'",10 + '5');
+console.log("10 + '5': ",10 + '5');
 console.log("'some' + 'text': ",'some' + 'text');
 console.log("undefined + 1: ",undefined + 1);
 console.log("null + 8: ",null + 8);
