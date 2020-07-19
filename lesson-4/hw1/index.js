@@ -1,5 +1,5 @@
-let n = 0;
-let sum;
+let n = 1;
+let sum = 1;
 
 do {
     n++;
