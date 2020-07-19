@@ -1,5 +1,9 @@
-let sum;
-for ( let n = 50; n >= 1; n--) {
+let n = 0;
+let sum = 0;
+
+do {
+    n++;
     sum += String(n);
-}
-console.log(sum);
+} while(n < 50);
+
+console.log('Result ' + sum);
