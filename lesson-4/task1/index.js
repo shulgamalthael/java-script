@@ -1,4 +1,4 @@
-let n = 101;
+let n = 100;
 let sum = 0;
 
 do{
