@@ -1,6 +1,6 @@
-let m = 15;
-let n = 25;
-let result = 0;
+let m = 1;
+let n = 10;
+let result = 1;
 
 do {
     if (m % 2 === 1) {
