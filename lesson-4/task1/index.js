@@ -6,4 +6,4 @@ while ( n <= 200) {
     n++
 }
 
-console.log(sum);
+console.log("Result: ",sum);
