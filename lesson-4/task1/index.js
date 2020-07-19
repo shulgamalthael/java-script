@@ -1,5 +1,5 @@
 let n = 100;
-let sum = 0;
+let sum = 1;
 
 while (n < 200) {
     sum += n;
