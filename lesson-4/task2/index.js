@@ -3,7 +3,7 @@ let n = 10;
 let result = 0;
 
 do {
-    if (m % 2 === 1) {
+    if (m % 2 === 0) {
         result *= m;
     }
     m++;
