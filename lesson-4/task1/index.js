@@ -6,4 +6,4 @@ do {
     sum += n;
 } while( n > 100);
 
-console.log('Result ' + sum);
+console.log(`Result ${sum}`);
