@@ -1,5 +1,5 @@
-let m = 10;
-let n = 20;
+let m = 15;
+let n = 25;
 let result = 1;
 
 do {
