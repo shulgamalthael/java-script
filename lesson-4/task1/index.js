@@ -6,4 +6,4 @@ while(n > 100) {
     n--;
 }
 
-console.log('Result ' + String(sum));
+console.log('Result ' + sum);
