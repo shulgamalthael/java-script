@@ -4,6 +4,5 @@ let sum = 0;
 do {
     n--;
     sum += n;
+    console.log('Result ',sum);
 } while( n > 100);
-
-console.log(`Result ${sum}`);
