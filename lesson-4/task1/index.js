@@ -1,8 +1,8 @@
 let n = 200;
 let sum = 0;
 
-do {
-    n--;
+while(n >= 100) {
     sum += n;
-    console.log('Result ',sum);
-} while( n > 100);
+    n--;
+    console.log(sum);
+}
