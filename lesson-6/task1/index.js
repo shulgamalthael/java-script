@@ -3,9 +3,9 @@ function getArrayBounds(arr) {
         return null;
     }
 
-    let scoreArr = [];
+    let arr = [];
     for (let i = 0; i < arr.length; i++) {
-        scoreArr.unshift(arr[a]);
+        arr.unshift(arr[a]);
     }
     return [arr.length, arr[0], arr[arr.length - 1]];
 }
