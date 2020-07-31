@@ -1,5 +1,5 @@
 function getSpecialNumbers(m,n) {
-    let = array();
+    let = array[];
     for( let m = 0; n < m; n++) {
         if ( n % 3 === 0) {
             array.push(a);
