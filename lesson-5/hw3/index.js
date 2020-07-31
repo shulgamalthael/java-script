@@ -1,11 +1,14 @@
 function compareSums(a,b,c,d) {
-    return sum;
-}
+    let firstSum = sum(a,b);
+    let secondSum = sum(c + d);
 
-function sum(from, to) {
-    if ( a + b > c + d ) {
+    if ( firstSum > secondSum) {
         return true;
     } else {
         return false;
     }
+}
+
+function sum(from, to) {
+    return from + to;
 }
