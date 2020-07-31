@@ -1,11 +1,8 @@
-let m = 1;
-const n = 200;
+let n = 200;
 let sum = 0;
 
-while ( m <= n ) {
-    m += 1;
-    sum += m;
-    console.log("Result: " + sum);
+for (let i = 0; i <= n; i++) {
+    sum += i;
 }
 
-console.log("Result: " + sum);
+console.log(sum);
