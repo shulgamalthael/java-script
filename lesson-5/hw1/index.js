@@ -1,8 +1,9 @@
-function getSum(a,b) {
+  
+function getSum(b, c) {
     let sum = 0;
-    for (let a = 0; a <= b; a++) {
-        if( a % 2 === 0) {
-            sum += a;
+    for (let i = b; i <= c; i++) {
+        if (i % 2 == 0) {
+            sum += i;
         }
     }
     return sum;
