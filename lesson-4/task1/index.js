@@ -1,8 +1,8 @@
-let m = 100;
+let m = 101;
 const n = 200;
 let sum = 0;
 
-while ( m < n ) {
+while ( m <= n ) {
     m += 1;
     sum += m;
 }
