@@ -9,4 +9,3 @@ function getSum(a,b) {
 }
 
 getSum(1,10);
-console.log(sum);
