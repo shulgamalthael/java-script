@@ -1,9 +1,9 @@
-function getSpecialNumbers(m,n) {
-    let = array[];
-    for( let m = 0; n < m; n++) {
-        if ( n % 3 === 0) {
-            array.push(a);
+function getSpecialNumbers(m, n) {
+    let newArr = [];
+    for (let a = m; a <= n; a++) {
+        if (a % 3 === 0) {
+            newArr.push(a);
         }
     }
-    return array;
+    return newArr;
 }
