@@ -1,9 +1,11 @@
-const array = [1,2,3,4,5];
-
-function getArray (array) {
-    if (getArray()) {
+function scoreArray(arr) {
+    if (!Array.isArray(arr)) {
         return null;
-    } else {
-        return array[0],array[4],array;
     }
+
+    let scoreArr = [];
+    for (let i = 0; i < arr.length; i++) {
+        scoreArr.unshift(arr[a]);
+    }
+    return scoreArr;
 }
