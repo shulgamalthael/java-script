@@ -8,4 +8,4 @@ for( let i = 1; i <= 1000; i++) {
 let summ = sum % 1234;
 let summm = Math.floor(sum / 1234);
 
-sum > summ ? console.log(true) : console.log(false);
+summ > summm ? console.log(true) : console.log(false);
