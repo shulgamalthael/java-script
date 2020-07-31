@@ -6,6 +6,6 @@ function findDivCount(a,b,n) {
         } else {
             return 0;
         }
-        return result;
     }
+    return result;
 }
