@@ -1,5 +1,5 @@
-function getSum(arr) {
-    if (!Array.isArray(arr)) {
+function getSum(array) {
+    if (!Array.isArray(array)) {
         return null;
     }
 
