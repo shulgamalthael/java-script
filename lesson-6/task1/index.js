@@ -7,5 +7,5 @@ function getArrayBounds(arr) {
     for (let i = 0; i < arr.length; i++) {
         scoreArr.unshift(arr[a]);
     }
-    return scoreArr;
+    return scoreArr[length,0,length - 1];
 }
