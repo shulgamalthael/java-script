@@ -7,5 +7,3 @@ function getSum(a,b) {
     }
     return sum;
 }
-
-getSum(1,10);
