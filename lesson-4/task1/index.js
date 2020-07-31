@@ -3,4 +3,4 @@ for (let n=100; n<200; n++) {
     sum += n;
 }
 
-console.log(sum);
+console.log("Result: ", sum);
