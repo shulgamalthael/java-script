@@ -1,4 +1,4 @@
-m = 1;
+let m = 1;
 const n = 200;
 let sum = 0;
 
