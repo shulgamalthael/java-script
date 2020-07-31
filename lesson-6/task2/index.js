@@ -1,12 +1,12 @@
 function getSum(array) {
+    let sum = 0;
+
     if (!Array.isArray(array)) {
         return null;
     }
 
-    let sum = 0;
-    const arraySum = array();
-    for (let i = 0; i <= array.length; i ++) {
-        sum += array[i];
+    for (let a = 0; a < array.length; a++) {
+        sum += array[a];
     }
     return sum;
 }
