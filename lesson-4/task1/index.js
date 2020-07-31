@@ -7,4 +7,4 @@ while ( m <= n ) {
     sum += m;
 }
 
-console.log("Result: ", sum);
+console.log("Result: " + sum);
