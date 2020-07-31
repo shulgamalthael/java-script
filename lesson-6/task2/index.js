@@ -1,3 +1,4 @@
+  
 function getSum(array) {
     let sum = 0;
 
