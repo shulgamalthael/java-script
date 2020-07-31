@@ -1,12 +1,11 @@
-let m = 10;
-const n = 20;
+const m = 2;
+const n = 10
 let result = 1;
 
-do {
-    if ( m % 2 === 1) {
-        result *= m;
+for ( let i = m; i < n; i++) {
+    if ( i % 2 === 1) {
+        result *= i;
     }
-    m++;
-}while (m <= n);
+}
 
 console.log('Result ' + result);
