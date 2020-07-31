@@ -6,7 +6,7 @@ function getSum(arr) {
     let sum = 0;
     const arraySum = array();
     for (let i = 0; i <= array.length; i ++) {
-        sum += i;
+        sum += array[i];
     }
     return sum;
 }
