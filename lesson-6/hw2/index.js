@@ -3,7 +3,7 @@ function createEmptyArray(len) {
 
     let emptyArray = [];
 
-    emptyArray[emptyArray.length] = len;
+    let emptyArray[...rest] = len;
 
     return emptyArray;
 }
