@@ -1,12 +1,7 @@
-  
 function createEmptyArray(len) {
-
     let emptyArray = [];
-    emptyArray[emptyArray.length] = len;
-
-    for (let i = 0; i < len; i++) {
-        emptyArray[i] = "";
+    for (let a = 0; a <= emptyArray.length; a++) {
+        emptyArray[emptyArray.length] = len;
     }
-
-    return emptyArray;
+    return newArr;
 }
