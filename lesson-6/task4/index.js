@@ -1,4 +1,4 @@
 function swap(arr) {
-    let [firstelement, ...rest] = arr;
-    return [...rest, firstelement];
+    let [firstElement, ...rest] = arr;
+    return [...rest, firstElement];
 }
