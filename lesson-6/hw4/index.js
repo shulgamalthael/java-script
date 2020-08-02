@@ -7,10 +7,6 @@ function checkSum(arr) {
         sum = sum += checkSum[i];
     }
 
-    if (sum > 100) {
-        return true;
-    } else {
-        return false;
-    }
+    return (sum > 100);
 
 }
