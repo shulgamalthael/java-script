@@ -1,4 +1,4 @@
-const getMessegesForPassedStudents = (allStudents, failedStudents) => {
+const getMessegesForBestStudents = (allStudents, failedStudents) => {
     const passedStudents = allStudents
     .filter(name => !failedStudents.includes(name));
 
