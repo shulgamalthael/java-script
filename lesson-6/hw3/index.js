@@ -3,9 +3,12 @@ function squareArray(array) {
         return null;
     }
 
-    let array = [];
-    for ( let i = 0; i < array.length; i++) {
-        array.push(array[i] * array[i]);
+    ret= [];            
+
+    for (var i = 0, len = arr.length; i < len; i++) {
+        root = Math.sqrt(arr[i]);
+        ret.push(root);
     }
-    return array;
+
+    return ret; 
 }
