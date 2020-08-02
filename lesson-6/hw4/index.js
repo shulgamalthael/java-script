@@ -1,11 +1,8 @@
 function checkSum(arr) {
-    if(!Array.isArray(arr)) return null;
-
-    sum = 0;
+    let sumArr = 0;
+    if (!Array.isArray(arr)) return null;
     for (let i = 0; i < arr.length; i++) {
-        sum = sum += arr[i];
+        sumArr += arr[i];
     }
-
-    return (sum > 100);
-
+    return (sumArr > 100);
 }
