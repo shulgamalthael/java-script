@@ -2,6 +2,6 @@ function createEmptyArray(len) {
 
     const arr = new Array(len);
 
-    return arr;
+    return new Array;
 
 }
