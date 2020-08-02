@@ -1,7 +1,6 @@
-function createEmptyArray(len) {
+function createEmptyArray(len){
 
-    const arr = new Array(len);
-
-    return new Array;
+const arr = new Array(len);
+return Array(len);
 
 }
