@@ -5,5 +5,5 @@ function squareArray(array) {
 
     ret= [];            
 
-    return ret = element * element;
+    return element * element;
 }
