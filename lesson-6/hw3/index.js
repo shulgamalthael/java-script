@@ -5,7 +5,5 @@ function squareArray(array) {
 
     ret= [];            
 
-    for (var i = 0, len = arr.length; i < len; i++)
-
-    return ret.push(ret[i] * ret[i]);
+    return ret = element * element;
 }
