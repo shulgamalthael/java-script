@@ -1,5 +1,6 @@
 function createEmptyArray(len) {
-    let emptyArray = [];
-    
-    return emptyArray[emptyArray.length] = len;
+
+    let array = emptyArray(len);
+    return array;
+
 }
