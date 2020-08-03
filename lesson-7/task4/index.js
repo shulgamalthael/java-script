@@ -1,9 +1,3 @@
-const getMessegesForBestStudents = (allStudents, failedStudents) => {
-    const passedStudents = allStudents
-    .filter(name => !failedStudents.includes(name));
-
-    const massages = passedStudents
+const getMessagesForBestStudents = (allStudents, failedStudents) => allStudents
+    .filter(name => !failedStudents.includes(name))
     .map(name => 'Good job, ' + name);
-
-    return messages;
-};
