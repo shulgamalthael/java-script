@@ -1,8 +1,7 @@
 function getKeys(obj) {
-    let arrKeys = Object.key(obj);
-    return arrkey.forEach(key => console.log(key));
+    let arrKeys = Object.keys(obj);
+    return (arrKeys.forEach(key => console.log(key)));
 }
-
 const user = {
     name: 'Alex',
     age: 30,
