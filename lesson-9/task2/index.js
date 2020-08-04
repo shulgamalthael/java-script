@@ -4,6 +4,6 @@ const user = {
 };
 
 const copyObj = obj => {
-    const coppedObj = Object.assign(obj);
+    const coppedObj = Object.assign({}, obj);
     return coppedObj;
 }
