@@ -1,9 +1,7 @@
-  
-const addPropertyV1 = (userData, userId) => {
-    user.id = userId;
+function addPropertyV1(userData, userId) {
+    userData.id = userId;
     return userData;
 };
-
 function addPropertyV2(userData, userId) {
     const sourceData = { id: userId };
     return Object.assign(userData, sourceData);
