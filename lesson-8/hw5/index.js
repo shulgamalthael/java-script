@@ -1,35 +1,24 @@
 const mergeObjectsV1 = (obj1, obj2) => {
-    const result = Object.assign({}, obj1, obj2);
-    return result;
-};
-
-const mergeObjectsV2 = (obj1, obj2) => {
-    const result = Object.assign({}, obj2, obj1);
-    return result;
-};
-
-const mergeObjectsV3 = (obj1, obj2) => {
-    const result = {...obj1, ...obj2};
-    return result;
-};
-
-const mergeObjectsV4 = (obj1, obj2) => {
-    const result = {...obj2, ...obj1};
-    return result;
-};
-
-// const mergeObjectsV4 = (obj1, obj2) => {
-//     let clonedObj1 = {...obj1};
-//     let clonedObj2 = {...obj2};
-//     const result = Object.assign({}, clonedObj2, clonedObj1);
-
-//     return result;
-// };
-
-const user1 = {
-    name: 'Bob',
-    age: 17,
-};
+    let newObj = {};
+    Object.assign(newObj, obj1, obj2);
+    return newObj;
+  }
+  const mergeObjectsV2 = (obj1, obj2) => {
+    let newObj = {};
+    Object.assign(newObj, obj2, obj1);
+    return newObj;
+  }
+  const mergeObjectsV3 = (obj1, obj2) => {
+    let newObj = {...obj1, ...obj2};
+    
+    return newObj;
+  }
+  
+  const mergeObjectsV4 = (obj1, obj2) => {
+    let newObj = {...obj2, ...obj1};
+    
+    return newObj;
+  }
 
 const user2 = {
     name: 'Patrick',
