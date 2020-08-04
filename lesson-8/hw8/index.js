@@ -1,6 +1,6 @@
   
 const addPropertyV1 = (userData, userId) => {
-    user.id = userId;
+    userData.id = userId;
     return userData;
 };
 
