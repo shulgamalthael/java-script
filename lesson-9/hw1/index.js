@@ -26,7 +26,9 @@ const rooms = {
 
 }
 
-const getPeople = obj => Object.values(obj).flat().map(obj => Object.values(obj)).flat();
+function getPeople(obj) {
+    return Object.entries(obj).flat().map(obj => Object.entries(obj)).flat();
+}
 // cloneObj = {...obj };
 // const middleObj = Object.values(cloneObj).flat().map(obj => Object.values(obj)).flat()
 
