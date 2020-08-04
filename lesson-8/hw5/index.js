@@ -1,30 +1,33 @@
-const addPropertyV1 = (obj, key, value) => {
-    obj[key] = value;
-    return obj;
-}
-const addPropertyV2 = (obj, key, value) => {
-    const sourceObj = {
-        [key]: value
-    };
-    return Object.assign(obj, sourceObj);
-}
-const addPropertyV3 = (obj, key, value) => {
-    const sourceObj = {
-        [key]: value
-    };
-    return Object.assign({}, obj, sourceObj);
-}
-const addPropertyV4 = (obj, key, value) => {
-    const sourceObj = {
-        [key]: value
-    };
-    return {...obj, ...sourceObj };
-}
+const mergeObjectsV1 = (obj1, obj2) => {
+    let resultedObj = Object.assign({}, obj1, obj2);
+    return resultedObj;
+};
+
+const mergeObjectsV2 = (obj1, obj2) => {
+    let resultedObj = Object.assign({}, obj2, obj1);
+    return resultedObj;
+};
+
+const mergeObjectsV3 = (obj1, obj2) => {
+    let resultedObj = {...obj1, ...obj2 }
+    return resultedObj;
+};
+const mergeObjectsV4 = (obj1, obj2) => {
+    let resultedObj = {...obj2, ...obj1 }
+    return resultedObj;
+};
+
+const obj1 = {
+    name: 'Tom',
+    age: 17,
+};
+const obj2 = {
+    name: 'Bob',
+    student: false,
+};
 
 
-const transaction = {
-    value: 170,
-}
-const result = addPropertyV4(transaction, 'currency', 'USD');
-
-console.log(result);
+console.log(mergeObjectsV1(obj1, obj2));
+console.log(mergeObjectsV2(obj1, obj2));
+console.log(mergeObjectsV3(obj1, obj2));
+console.log(mergeObjectsV4(obj1, obj2));
