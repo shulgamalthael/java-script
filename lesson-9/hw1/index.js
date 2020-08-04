@@ -19,8 +19,8 @@ const rooms = {
     ],
 };
 
-const getPeople = object => Object.values(object).flat()
-.map(elem => (elem = elem.name))
+const getPeople = object => Object.values(object).flat().map(elem => (elem = elem.name))
+return getPeople;
 
 const usersArr = getPeople(rooms);
 
