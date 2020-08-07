@@ -2,12 +2,8 @@ const splitString = (str, num) => {
     const strArr = [];
     let startPosition = 0;
 
-    if (str === !String) {
-        return null;
-    }
-    if (num === undefined) {
-        num = 10;
-    }
+    if (str === !String) return null;
+    if (num === undefined) num = 10;
 
     while (true) {
         let chunk = str.substr(startPosition, num);
