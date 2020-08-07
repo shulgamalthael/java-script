@@ -5,18 +5,6 @@ const contacts = [{
 {
     name: "Kate",
     phoneNumber: "444-44-44"
-},
-{
-    name: "Sam",
-    phoneNumber: "333-33-33"
-},
-{
-    name: "Alex",
-    phoneNumber: "222-22-22"
-},
-{
-    name: "Linda",
-    phoneNumber: "111-11-11"
 }
 ];
 
