@@ -38,6 +38,7 @@ const country = {
 };
 
 function getPopulation(population) {
+    console.log(`Population in ${this.countryName} is ${population}`);
     return `Population in ${this.countryName} is ${population}`;
 }
 
@@ -46,7 +47,7 @@ function getPopulation(population) {
 // 43000 передавайте в виде числа
 // используйте объект country
 // результат работы ф-ции getPopulation присвойте в переменную и выведите в консоль
-// ... your code here
+getPopulation.apply(country, [43000]);
 
 
 
