@@ -10,3 +10,5 @@ const callbackPrompt = {
 };
 
 callbackPrompt.showDeferredPrompt(1000);
+
+export { callbackPrompt };
