@@ -99,3 +99,5 @@ const anotherTransaction = {
 
  const printSpecialTransaction = transaction.printTransaction.bind(anotherTransaction);
  printSpecialTransaction();
+
+ export { sayStudentName, sayBruceName, specialGreeting, getUkrainePopulation, printSpecialTransaction };
