@@ -6,13 +6,13 @@
 
 // const markAdmins = (users, adminsId) => {
 //     users.map(function(users) {
-//         return { ...user, isAdmin: adminsId.include(user, id) };
+//         return { ...user, isAdmin: adminsId.includes(user, id) };
 //     });
 // };
 
 const markAdmins = (users, adminsId) => {
     users.map = (users => 
-        ({ ...user, isAdmin: adminsId.include(user, id) }));
+        ({ ...user, isAdmin: adminsId.includes(user, id) }));
 }
 
 //result
