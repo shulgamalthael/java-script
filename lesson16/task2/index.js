@@ -1,9 +1,9 @@
-let arr = [];
+var arr = [];
 
 for(let i = 0; i < 10; i++) {
-    arr[i] = function() {
-        return i;
+        arr[i] = function() {
+            return i;
+        }
     }
-}
 
-console.log(arr);
+console.log(arr[1]());
