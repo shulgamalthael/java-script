@@ -11,10 +11,9 @@ function sayName() {
  * создайте ф-цию sayStudentName которая будет выводить в консоль имя студента 'Tom'
  * используйте .bind и ф-цию sayName
  */
-
 const sayStudentName = sayName.bind(student);
-sayStudentName();
 
+sayStudentName();
 /*
  * создайте ф-цию sayBruceName которая будет выводить в консоль имя 'Bruce'
  * используйте ф-цию sayName и .bind с нужным объектом
@@ -22,10 +21,10 @@ sayStudentName();
 const student2 = {
     name: 'Bruce',
 };
+
 const sayBruceName = sayName.bind(student2);
 
 sayBruceName();
-
 
 /* ===> 2 <=== */
 const company = {
@@ -42,10 +41,9 @@ function greeting(firstName, lastName) {
  * используйте ф-цию greeting и .bind с нужным объектом и аргументами
  * specialGreeting не должна принимать ни одного аргумента
  */
+const specialGreeting = greeting.bind(company, 'Bob', 'Marley');
 
- const specialGreeting = greeting.bind(company, 'Bob', 'Marley');
- specialGreeting();
-
+specialGreeting();
 
 
 /* ===> 3 <=== */
@@ -55,20 +53,19 @@ const country = {
 };
 
 function getPopulation(population) {
-    console.log(`Population in ${this.countryName} is ${population}`);
     return `Population in ${this.countryName} is ${population}`;
 }
 
 /*
  * создайте ф-цию getUkrainePopulation которая будет возвращать строку
  * 'Population in Ukraine is 43000`
- * 43000 передавайте в виде числа
  * используйте ф-цию getPopulation и .bind с нужным объектом и аргументами
  * getUkrainePopulation не должна принимать ни одного аргумента
  */
 
- const getUkrainePopulation = getPopulation.bind(country, 43000);
- getUkrainePopulation();
+const getUkrainePopulation = getPopulation.bind(country, 43000);
+
+getUkrainePopulation();
 
 
 
@@ -97,7 +94,9 @@ const anotherTransaction = {
  * printSpecialTransaction не должна принимать ни одного аргумента
  */
 
- const printSpecialTransaction = transaction.printTransaction.bind(anotherTransaction);
- printSpecialTransaction();
 
- export { sayStudentName, sayBruceName, specialGreeting, getUkrainePopulation, printSpecialTransaction };
+const printSpecialTransaction = transaction.printTransaction.bind(anotherTransaction);
+
+printSpecialTransaction();
+
+export { sayStudentName, sayBruceName, specialGreeting, getUkrainePopulation, printSpecialTransaction };
