@@ -4,6 +4,12 @@
 //elgo
 //1. map array of objects
 
+// const markAdmins = (users, adminsId) => {
+//     users.map(function(users) {
+//         return { ...user, isAdmin: adminsId.include(user, id) };
+//     });
+// };
+
 const markAdmins = (users, adminsId) => {
     users.map = (users => 
         ({ ...user, isAdmin: adminsId.include(user, id) }));
