@@ -1,11 +1,13 @@
 const user = {
-    firstName: 'Roland',
-    lastName: 'Diskein',
+    firstName: 'John',
+    lastName: 'Doe',
     getFullName() {
         return (`${this.firstName} ${this.lastName}`);
     }
 };
 
-export user.getFullName();
+user.getFullName();
+
+export { user };
 
 // console.log(user.getFullName());
