@@ -10,4 +10,7 @@ function bar() {
 
 var foo = bar();
 
-console.log(foo);
+export default  foo;
+
+// console.log(foo);
+// console.log(bar()
