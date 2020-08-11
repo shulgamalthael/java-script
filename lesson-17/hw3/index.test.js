@@ -1,1 +1,1 @@
-import { sayStudentName, sayBruceName, specialGreeting, getUkrainePopulation, printSpecialTransaction }; from '/index.js';
+import { sayStudentName, sayBruceName, specialGreeting, getUkrainePopulation, printSpecialTransaction } from '/index.js';
