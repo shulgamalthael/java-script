@@ -7,7 +7,7 @@ const wallet = {
     },
     getMin() {
         return Math.min(...this.transaction);
-     },
+    },
 };
 
 export { wallet } ;
