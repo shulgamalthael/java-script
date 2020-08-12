@@ -21,6 +21,8 @@ const ship = {
     
 }
 
+export { vehicle, ship };
+
 // vehicle.move();
 // vehicle.stop();
 // console.log(vehicle);
