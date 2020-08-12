@@ -1,7 +1,7 @@
 //wallet - заимствование метода
 
 const wallet = {
-    transaction: [- 100, 1, 2, 3, 100],
+    transactions: [- 100, 1, 2, 3, 100],
     getMax() {
         return Math.max(...this.transactions);
     },
