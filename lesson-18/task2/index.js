@@ -10,5 +10,7 @@ const wallet = {
      },
 };
 
+export { wallet } ;
+
 // console.log(wallet.getMax());
 // console.log(wallet.getMin());
