@@ -4,12 +4,12 @@ const formatSeconds = seconds => {
     }
     return seconds;
 };
-const timer = {
+export const timer = {
     minsPassed: 0,
     secondsPassed: 0,
-    idInterval: null,
+    _interval: null,
     startTimer() {
-        this.idInterval = setInterval(() => {
+        this._interval = setInterval(() => {
             this.secondsPassed += 1;
             if (this.secondsPassed === 60) {
                 this.minsPassed += 1;
@@ -18,8 +18,8 @@ const timer = {
         }, 1000);
     },
     stopTimer() {
-        clearInterval(this.idInterval);
-        this.idInterval = null;
+        clearInterval(this._interval);
+        this._interval = null;
     },
     resetTimer() {
         this.stopTimer();
@@ -31,6 +31,3 @@ const timer = {
         return `${this.minsPassed}:${formattedSeconds}`;
     }
 };
-
-timer.startTimer();
-timer.getTime();
