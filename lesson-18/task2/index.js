@@ -3,10 +3,10 @@
 const wallet = {
     transaction: [1, 2, 3],
     getMax() {
-       return Math.max.apply(wallet, this.transaction);
+       return Math.max(...this.transaction);
     },
     getMin() {
-        return Math.min.apply(wallet, this.transaction);
+        return Math.min(...this.transaction);
      },
 };
 
