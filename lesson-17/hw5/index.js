@@ -4,22 +4,22 @@ const formatSeconds = seconds => {
     }
     return seconds;
 };
-export const timer = {
+const timer = {
     minsPassed: 0,
     secondsPassed: 0,
-    _interval: null,
+    idInterval: null,
     startTimer() {
-        this._interval = setInterval(() => {
-            this.secondsPassed += 5;
+        this.idInterval = setInterval(() => {
+            this.secondsPassed += 1;
             if (this.secondsPassed === 60) {
                 this.minsPassed += 1;
                 this.secondsPassed = 0;
             }
-        }, 5000);
+        }, 1000);
     },
     stopTimer() {
-        clearInterval(this._interval);
-        this._interval = null;
+        clearInterval(this.idInterval);
+        this.idInterval = null;
     },
     resetTimer() {
         this.stopTimer();
@@ -32,5 +32,5 @@ export const timer = {
     }
 };
 
-// timer.startTimer();
-// timer.getTime();
+timer.startTimer();
+timer.getTime();
