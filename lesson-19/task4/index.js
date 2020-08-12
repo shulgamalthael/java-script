@@ -1,6 +1,6 @@
 const user = {
-    firstName: 'Bruce',
-    lastName: 'Wayne',
+    firstName: 'John',
+    lastName: 'Doe',
     get fullName() {
         return `${this.firstName} ${this.lastName}`;
         // console.log(`${this.firstName} ${this.lastName}`);
@@ -11,7 +11,10 @@ const user = {
         this.lastName = lastName;
     },
 };
+// user.fullName
 
-user.fullName();
+// user.fullName = 'Tom Lee';
+
+// user.fullName
 
 export default user;
