@@ -1,4 +1,4 @@
-const user = {
+const usera = {
     firstName: 'Bruce',
     lastName: 'Wayne',
     get fullName() {
@@ -14,4 +14,4 @@ const user = {
 
 user.fullName();
 
-export default user;
+export default users;
