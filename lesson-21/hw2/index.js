@@ -4,6 +4,8 @@ const getItemsList = () => {
     console.dir(itemList);
 };
 
+getItemsList();
+
 const getItemsArray = () => {
     const itemsArray = document.querySelectorAll('tool');
     const arrayElems = [];
@@ -11,3 +13,5 @@ const getItemsArray = () => {
     return arrayElems;
     console.dir(arrayElems);
 };
+
+getItemsArray();
