@@ -1,8 +1,9 @@
-function setButton(button) {
-    const button = document.querySelector('body');
+function setButton(buttonText) {
+    const setText = document.querySelector('body');
     setText.innerHTML = `<button>${buttonText}</button>`;
-}
+    // console.log(setText)
+};
 
-setButton('buttonText');
+setButton('button text');
 
 export { setButton };
