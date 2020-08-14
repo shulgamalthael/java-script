@@ -8,8 +8,8 @@ getItemsList();
 
 const getItemsArray = () => {
     const itemsArray = document.querySelectorAll('tool');
-    const arrayElems = [];
-    return (Array.from(elementsArray).map(elem => elem);
+    return Array.from(elementsArray).map(elem => elem);
+    console.dir(Array.from(elementsArray).map(elem => elem));
 };
 
 getItemsArray();
