@@ -9,9 +9,7 @@ getItemsList();
 const getItemsArray = () => {
     const itemsArray = document.querySelectorAll('tool');
     const arrayElems = [];
-    arrayElems.map(elem => elem);
-    return arrayElems;
-    console.dir(arrayElems);
+    return (Array.from(elementsArray).map(elem => elem);
 };
 
 getItemsArray();
