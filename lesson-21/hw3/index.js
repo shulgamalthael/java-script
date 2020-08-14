@@ -1,17 +1,29 @@
 function getTitle() {
-    return title = document.querySelector('.title').textContent;
-}
+    return document.querySelector('.title').textContent;
+    // console.log(getContent.textContent);
+};
+
+// getTitle();
 
 function getDescription() {
-    return description = document.querySelector('.about').innerText;
-}
+    return document.querySelector('.about').innerText;
+    // console.log(getContent.innerText);
+};
+
+// getDescription();
 
 function getPlans() {
-    return plans = document.querySelector('.plans').innerHTML;
-}
+    return document.querySelector('.plans').innerHTML;
+    // console.log(getContent.innerHTML);
+};
 
-function goal() {
-    return goal = document.querySelector('.goal').outerHTML;
-}
+// getPlans();
 
-export {getTitle, getDescription, getPlans, goal};
+function getGoal() {
+    return document.querySelector('.goal').outerHTML;
+    // console.log(getContent.outerHTML);
+};
+
+// getGoal();
+
+export { getTitle, getDescription, getPlans, getGoal };
