@@ -6,4 +6,4 @@ function getSection() {
     return getDataSection;
 };
 
-export { getDataSection };
+export { getSection };
