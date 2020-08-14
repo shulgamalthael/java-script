@@ -9,5 +9,5 @@ const getItemsArray = () => {
     const arrayElems = [];
     arrayElems.map(elem => elem);
     return arrayElems;
-    console.dir()
+    console.dir(arrayElems);
 };
